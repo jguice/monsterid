@@ -12,12 +12,12 @@ module MonsterId
 
       # throw the dice for body parts
       parts = {
-        legs: => rand(5),
-        hair: => rand(5),
-        arms: => rand(5),
-        body: => rand(15),
-        eyes: => rand(15),
-        mouth: => rand(10),
+        :legs => rand(5),
+        :hair => rand(5),
+        :arms => rand(5),
+        :body => rand(15),
+        :eyes => rand(15),
+        :mouth => rand(10)
       }
 
       @image = ChunkyPNG::Image.new SIZE, SIZE, ChunkyPNG::Color::TRANSPARENT
