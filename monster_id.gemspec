@@ -3,15 +3,13 @@ $:.push File.expand_path("../lib", __FILE__)
 require "monster_id/version"
 
 Gem::Specification.new do |s|
-  s.name        = "monster_id"
+  s.name        = "monster_id_jruby"
   s.version     = MonsterId::VERSION
   s.authors     = ["Irina Dumitrascu"]
   s.email       = ["me@dira.ro"]
   s.homepage    = ""
   s.summary     = %q{Generate random monster images.}
-  s.description = %q{A Ruby port of the MonsterID PHP script, using ChunkyPNG. http://www.splitbrain.org/projects/monsterid}
-
-  s.rubyforge_project = "monster_id"
+  s.description = %q{A Ruby port of the MonsterID PHP script, using ChunkyPNG (but not OilyPNG for JRuby compatability). http://www.splitbrain.org/projects/monsterid}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
