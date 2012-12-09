@@ -1,4 +1,4 @@
-A Ruby port of [monsterid](http://www.splitbrain.org/projects/monsterid).
+A Ruby port of [monsterid](http://www.splitbrain.org/projects/monsterid).  This fork (monster_id_jruby) aims to maintain JRuby compatability.
 
 ## Usage
 
